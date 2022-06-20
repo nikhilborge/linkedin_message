@@ -32,7 +32,7 @@ async function loginWithGoogle(){
     console.log(result.additionalUserInfo.profile.name);
     console.log(result.additionalUserInfo.profile.email);
     console.log(result.additionalUserInfo.profile.picture);
-    window.location.href="http://localhost:5500/chat.html"
+    window.location.href="chat.html"
 
   })
 }
